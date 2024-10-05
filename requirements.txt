@@ -1,4 +1,2 @@
-azure-ai-vision-imageanalysis
-transformers
-torch
-accelerate>=0.26.0
+fal_client
+pillow
