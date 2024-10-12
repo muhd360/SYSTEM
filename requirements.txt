@@ -1,2 +1,7 @@
-fal_client
 pillow
+pytesseract
+tensorflow
+requests
+fal-client
+
+pytest
