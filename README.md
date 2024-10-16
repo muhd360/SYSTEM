@@ -3,6 +3,12 @@
 
 ```
 python main.py -i <image_url> -db <database_path>
+
+```
+also 
+```
+python your_script.py -i https://example.com/image.jpg
+python your_script.py -f /path/to/local/image.jpg
 ```
 
 # tests
