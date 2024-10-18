@@ -1,0 +1,49 @@
+2024-10-16 16:13:39,393 - INFO - Processing image: images/1.png
+2024-10-16 16:13:39,393 - ERROR - Error during image processing: Please set the FAL_KEY environment variable to your API key, or set the FAL_KEY_ID and FAL_KEY_SECRET environment variables.
+2024-10-16 16:14:09,284 - INFO - Processing image: images/1.png
+2024-10-16 16:14:10,215 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/any-llm/vision "HTTP/1.1 200 OK"
+2024-10-16 16:14:10,468 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/any-llm/requests/d0d6f6c2-4b2e-4428-b7b7-80294312976a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 16:14:10,865 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/any-llm/requests/d0d6f6c2-4b2e-4428-b7b7-80294312976a/status?logs=false "HTTP/1.1 200 OK"
+2024-10-16 16:14:11,127 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/any-llm/requests/d0d6f6c2-4b2e-4428-b7b7-80294312976a "HTTP/1.1 400 Bad Request"
+2024-10-16 16:14:11,128 - ERROR - Error during image processing: Invalid URL string.
+2024-10-16 16:15:25,091 - INFO - Processing image: https://cdn.zeptonow.com/production///tr:w-600,ar-690-1413,pr-true,f-auto,q-80/inventory/product/e2f65517-80c6-49c0-83c5-425c80af9bee-1CeDb43YMNxsT-2tV5kHvOn1cR26KB46W.jpeg
+2024-10-16 16:15:25,939 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/any-llm/vision "HTTP/1.1 200 OK"
+2024-10-16 16:15:26,247 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/any-llm/requests/90d89abb-1b4f-4054-9edc-a452a9d051e9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 16:15:26,641 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/any-llm/requests/90d89abb-1b4f-4054-9edc-a452a9d051e9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 16:15:27,028 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/any-llm/requests/90d89abb-1b4f-4054-9edc-a452a9d051e9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 16:15:27,386 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/any-llm/requests/90d89abb-1b4f-4054-9edc-a452a9d051e9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 16:15:27,742 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/any-llm/requests/90d89abb-1b4f-4054-9edc-a452a9d051e9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 16:15:28,100 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/any-llm/requests/90d89abb-1b4f-4054-9edc-a452a9d051e9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 16:15:28,484 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/any-llm/requests/90d89abb-1b4f-4054-9edc-a452a9d051e9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 16:15:28,894 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/any-llm/requests/90d89abb-1b4f-4054-9edc-a452a9d051e9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 16:15:29,249 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/any-llm/requests/90d89abb-1b4f-4054-9edc-a452a9d051e9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 16:15:29,611 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/any-llm/requests/90d89abb-1b4f-4054-9edc-a452a9d051e9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 16:15:30,024 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/any-llm/requests/90d89abb-1b4f-4054-9edc-a452a9d051e9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 16:15:30,382 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/any-llm/requests/90d89abb-1b4f-4054-9edc-a452a9d051e9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 16:15:30,840 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/any-llm/requests/90d89abb-1b4f-4054-9edc-a452a9d051e9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 16:15:31,198 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/any-llm/requests/90d89abb-1b4f-4054-9edc-a452a9d051e9/status?logs=false "HTTP/1.1 200 OK"
+2024-10-16 16:15:31,556 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/any-llm/requests/90d89abb-1b4f-4054-9edc-a452a9d051e9 "HTTP/1.1 200 OK"
+2024-10-16 16:15:31,558 - ERROR - Error during image processing: 'dict' object has no attribute 'output'
+2024-10-16 16:29:13,816 - INFO - Processing image: images/1.png
+2024-10-16 16:29:16,295 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/any-llm/vision "HTTP/1.1 200 OK"
+2024-10-16 16:29:16,600 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/any-llm/requests/f073204d-2fe6-48b1-9402-9b19dbbfebb1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 16:29:17,009 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/any-llm/requests/f073204d-2fe6-48b1-9402-9b19dbbfebb1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 16:29:17,419 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/any-llm/requests/f073204d-2fe6-48b1-9402-9b19dbbfebb1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 16:29:17,828 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/any-llm/requests/f073204d-2fe6-48b1-9402-9b19dbbfebb1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 16:29:18,238 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/any-llm/requests/f073204d-2fe6-48b1-9402-9b19dbbfebb1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 16:29:18,648 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/any-llm/requests/f073204d-2fe6-48b1-9402-9b19dbbfebb1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 16:29:19,057 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/any-llm/requests/f073204d-2fe6-48b1-9402-9b19dbbfebb1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 16:29:19,467 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/any-llm/requests/f073204d-2fe6-48b1-9402-9b19dbbfebb1/status?logs=false "HTTP/1.1 200 OK"
+2024-10-16 16:29:19,774 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/any-llm/requests/f073204d-2fe6-48b1-9402-9b19dbbfebb1 "HTTP/1.1 200 OK"
+2024-10-16 16:29:19,775 - ERROR - Error during image processing: 'dict' object has no attribute 'output'
+2024-10-16 16:31:03,606 - INFO - Processing image: images/1.png
+2024-10-16 16:31:05,967 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/any-llm/vision "HTTP/1.1 200 OK"
+2024-10-16 16:31:06,271 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/any-llm/requests/cec52cb2-871d-4b47-aaf8-9027816b2232/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 16:31:06,680 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/any-llm/requests/cec52cb2-871d-4b47-aaf8-9027816b2232/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 16:31:07,030 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/any-llm/requests/cec52cb2-871d-4b47-aaf8-9027816b2232/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 16:31:07,500 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/any-llm/requests/cec52cb2-871d-4b47-aaf8-9027816b2232/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 16:31:07,910 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/any-llm/requests/cec52cb2-871d-4b47-aaf8-9027816b2232/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 16:31:08,320 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/any-llm/requests/cec52cb2-871d-4b47-aaf8-9027816b2232/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 16:31:08,732 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/any-llm/requests/cec52cb2-871d-4b47-aaf8-9027816b2232/status?logs=false "HTTP/1.1 200 OK"
+2024-10-16 16:31:09,038 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/any-llm/requests/cec52cb2-871d-4b47-aaf8-9027816b2232 "HTTP/1.1 200 OK"
+2024-10-16 16:31:09,039 - ERROR - Error during image processing: 'dict' object has no attribute 'output'

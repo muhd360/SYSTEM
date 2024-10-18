@@ -1,6 +1,8 @@
-azure-ai-vision-imageanalysis
-transformers
-torch
-accelerate>=0.26.0
-azure-ai-inference==1.0.0b4
-rembg
+
+pillow
+pytesseract
+tensorflow
+requests
+fal-client
+
+pytest
