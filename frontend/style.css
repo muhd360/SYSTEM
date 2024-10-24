@@ -1,0 +1,80 @@
+/* Styling for IR-Based Parcel Counting Dashboard */
+body {
+    background-color: #f4f7fa;
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.dashboard {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #444;
+    font-weight: 600;
+}
+
+.parcel-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fdfdfd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    margin-top: 20px;
+}
+
+.parcel-table thead {
+    background: linear-gradient(90deg, #4caf50 0%, #81c784 100%);
+    color: #ffffff;
+}
+
+.parcel-table th, .parcel-table td {
+    padding: 15px 20px;
+    text-align: center;
+    border: 1px solid #e0e0e0;
+}
+
+.parcel-table tbody tr {
+    transition: background 0.3s, transform 0.2s;
+}
+
+.parcel-table tbody tr:nth-child(odd) {
+    background-color: #f1f8e9;
+}
+
+.parcel-table tbody tr:nth-child(even) {
+    background-color: #e8f5e9;
+}
+
+.parcel-table tbody tr:hover {
+    background-color: #dcedc8;
+    transform: scale(1.02);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+    .parcel-table, .dashboard {
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    .parcel-table th, .parcel-table td {
+        padding: 12px 10px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+}

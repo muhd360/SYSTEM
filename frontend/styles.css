@@ -1,0 +1,90 @@
+/* Styling for Parcel Defect Detection Dashboard */
+body {
+    background-color: #f4f7fa;
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.dashboard {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #444;
+    font-weight: 600;
+}
+
+.product-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fdfdfd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    margin-top: 20px;
+}
+
+.product-table thead {
+    background: linear-gradient(90deg, #42a5f5 0%, #90caf9 100%);
+    color: #ffffff;
+}
+
+.product-table th, .product-table td {
+    padding: 15px 20px;
+    text-align: left;
+}
+
+.product-table th {
+    font-weight: bold;
+    font-size: 1.1em;
+    letter-spacing: 0.5px;
+}
+
+.product-table tbody tr {
+    border-bottom: 1px solid #e0e0e0;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.product-table tbody tr:last-child {
+    border-bottom: none;
+}
+
+.product-table tbody tr:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.product-table tbody td {
+    font-size: 1em;
+    color: #555;
+}
+
+.product-table tbody td:first-child {
+    font-weight: 500;
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+    .product-table, .dashboard {
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    .product-table th, .product-table td {
+        padding: 12px 10px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+}
